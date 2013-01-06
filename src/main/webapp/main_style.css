@@ -1,0 +1,267 @@
+html {
+	background-color: #3F3F3F;
+	-webkit-transform: scale3d(1, 1, 1);
+}
+
+body {
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+}
+
+img {
+	border: 0;
+}
+
+#mp_top_bar {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	background-color: #1A1A1A;
+}
+
+#mp_top_bar_center {
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+	width: 1024px;
+}
+
+#mp_top_bar_center_link {
+	position: relative;
+	left: 30px;
+	top: 20px;
+	color: white;
+	font-size: 48px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#mp_page_content {
+	position: absolute;
+	left: 0px;
+	top: 100px;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+#mp_page_content_center {
+	margin-left: auto;
+	margin-right: auto;
+	height: 600px;
+	width: 1024px;
+	background-color: #E8E8E8;
+	border-left: 1px solid #D8D8D8;
+	border-right: 1px solid #D8D8D8;
+}
+
+#mp_bottom_bar_small {
+	position: absolute;
+	left: 0px;
+	top: 700px;
+	width: 100%;
+	height: 5px;
+	background-color: #00CCFF;
+}
+
+#mp_bottom_bar {
+	position: absolute;
+	left: 0px;
+	top: 705px;
+	width: 100%;
+	height: 50px;
+	background-color: #1A1A1A;
+}
+
+.gwt-LabelErr {
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	margin-right: 3px;
+	color: #ff0000;
+}
+
+.gwt-menuPanel {
+	background-color: #3F3F3F;
+}
+
+.gwt-ButtonCustom {
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	border: none;
+	color: #FFFFFF;
+	background-color: #00CCFF;
+	text-align: right;
+	vertical-align: top;
+}
+
+.gwt-ButtonCustom:hover {
+	background-color: #00CCFF;
+	cursor: pointer;
+}
+
+.gwt-ButtonLogout {
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	border: none;
+	color: #CDCDCD;
+	background: transparent;
+}
+
+.gwt-ButtonLogout:HOVER {
+	cursor: pointer;
+	color: #FFFFFF;
+}
+
+.gwt-HyperlinkCustom a:LINK {
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	color: #CDCDCD;
+}
+
+.gwt-HyperlinkCustom a:VISITED {
+	color: #CDCDCD;
+}
+
+.gwt-HyperlinkCustom a:HOVER {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.gwt-HyperlinkCustomCurrent a:LINK {
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	color: #00CCFF;
+}
+
+.gwt-HyperlinkCustomCurrent a:VISITED {
+	color: #00CCFF;
+}
+
+.gwt-HyperlinkCustomCurrent a:HOVER {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.gwt-contentPanel {
+	background-color: #E8E8E8;
+}
+
+.gwt-mapCanvas {
+	-webkit-box-shadow: 1px 0px 2px -2px black;
+	-moz-box-shadow: 1px 0px 2px -2px black;
+	box-shadow: 1px 0px 2px -2px black;
+}
+
+.gwt-LabelUser {
+	font-weight: 800;
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	color: #CDCDCD;
+}
+
+.gwt-LabelCustom {
+	color: #1A1A1A;
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+}
+
+.gwt-dialogBox {
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	background-color: #FFFFFF;
+	color: #1A1A1A;
+	padding: 4px 4px 4px 4px;
+	cursor: default;
+}
+
+.gwt-dialogBox .Caption {
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	background-color: #FFFFFF;
+	color: #1A1A1A;
+	border-bottom: 1px solid #CDCDCD;
+	height: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.gwt-LabelCenter {
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	color: #1A1A1A;
+	text-align: center;
+}
+
+.gwt-TextArea300 {
+	overflow: hidden;
+	height: 100%;
+	min-height: 20px;
+	width: 300px;
+	border: 1px solid #ABADB3;
+	cursor: text;
+	font-size: 11px;
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	margin: 0;
+	padding: 2px;
+	clear: left;
+	max-width: 300px;
+	min-width: 300px;
+}
+
+.gwt-TextArea400 {
+	max-width: 400px;
+	min-width: 400px;
+	margin: 0px;
+	font-size: small;
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+}
+
+.gwt-DisclosurePanelC a:LINK {
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	color: #5A5A5A;
+	text-decoration: none;
+}
+
+.gwt-DisclosurePanelC a:HOVER {
+	text-decoration: none;
+}
+
+.gwt-verticalPanelMargin {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.gwt-LabelFile {
+	color: #1A1A1A;
+	margin: 0px;
+	padding-left: 10px;
+	font-style: italic;
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+}
+
+.gwt-ButtonCustomFile {
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	font-size: smaller;
+	border: none;
+	color: #FFFFFF;
+	background-color: #00CCFF;
+	text-align: right;
+	vertical-align: top;
+}
+
+.gwt-ButtonCustomFile:hover {
+	background-color: #00CCFF;
+	cursor: pointer;
+}
+
+.gwt-ButtonCustomFile:disabled {
+	background-color: #BFBFBF;
+	cursor: pointer;
+}
+
+.gwt-ListBoxNoBorder {
+	border: 1px solid ActiveBorder;
+	font-size: small;
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+}
+
+.gwt-MainNotePanel {
+	min-height: 480px;
+	vertical-align: top;
+	text-align: center;
+}
+
+.gwt-verticalPanelMarginTop {
+	margin-top: 10px;
+}

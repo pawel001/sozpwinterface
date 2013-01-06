@@ -1,0 +1,160 @@
+.gwt-Note {
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #D0D0D0;
+	margin-bottom: 12px;
+	padding-bottom: 2px;
+}
+
+.gwt-NoteSelected {
+	background-color: #fffc9f;
+}
+
+.gwt-NoteButtonDisabled {
+	background: none;
+	border: none;
+	cursor: auto;
+}
+
+.gwt-NoteButtonDetails:HOVER,.gwt-NoteButtonMarker:HOVER {
+	background-color: #8f8f8f;
+	border: none;
+	cursor: pointer;
+}
+
+.gwt-NoteButtonEdit:HOVER {
+	background-color: #8f8f8f;
+	background-image: url("images/edit2.png");
+	cursor: pointer;
+}
+
+.gwt-NoteButtonDelete:HOVER {
+	background-color: #8f8f8f;
+	background-image: url("images/delete2.png");
+	cursor: pointer;
+}
+
+.gwt-NoteButtonDetails {
+	background: none;
+	background-image: url("images/details2.png");
+	border: none;
+}
+
+.gwt-NoteButtonMarker {
+	background: none;
+	background-image: url("images/pin2.png");
+	border: none;
+}
+
+.gwt-NoteButtonEdit {
+	background: none;
+	background-image: url("images/edit.png");
+	border: none;
+}
+
+.gwt-NoteButtonDelete {
+	background: none;
+	background-image: url("images/delete.png");
+	border: none;
+}
+
+.gwt-NoteButtonComment {
+	margin-top: 4px;
+	background: none;
+	background-image: url("images/comment5.png");
+	background-color: #FFFFFF;
+	border: none;
+}
+
+.gwt-NoteButtonComment:HOVER {
+	background-color: #E8E8E8;
+	border: none;
+	cursor: pointer;
+}
+
+.gwt-NoteUsername {
+	color: #5F5F5F;
+	font-size: 11px;
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	vertical-align: middle;
+	font-style: italic;
+	padding-left: 4px;
+	padding-right: 2px;
+}
+
+.gwt-NoteTopic {
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	font-weight: 600;
+	font-size: 12px;
+	color: #1A1A1A;
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #004271;
+}
+
+.gwt-NoteContent {
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: #1A1A1A;
+	padding-left: 4px;
+	padding-right: 4px;
+	margin-top: 2px;
+	margin-bottom: 6px;
+}
+
+.gwt-CommentTextBox {
+	margin: 4px 0px 0px;
+	min-height: 17px;
+	font-size: 12px;
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+}
+
+.gwt-CommentHeaderHighlight {
+	border-top: 1px solid #9F9F9F;
+	margin-top: 2px;
+}
+
+.gwt-NoteMainHeaderHighlight {
+	background-color: #3F3F3F;
+}
+
+.gwt-CommentDisclosureHeader {
+	font-size: smaller;
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	vertical-align: middle;
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #5F5F5F;
+}
+
+.gwt-NoteDetailsMiddleTable {
+	margin: 15px 10px;
+}
+
+.gwt-NoteDetailsTopTable {
+	margin-top: 15px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.gwt-NoteDetailsAttachment {
+	padding-left: 10px;
+	font-style: italic;
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+}
+
+.gwt-NoteComment {
+	margin-top: 5px;
+	border-top: 1px solid #AAAAAA;
+	border-right: #AAAAAA;
+	border-bottom: #AAAAAA;
+	border-left: #AAAAAA;
+}
+
+.gwt-CommentDisclosurePanel {
+	text-align: center;
+}
+
+.gwt-CommentDisclosureHorizontal {
+	margin-left: 2px;
+}
