@@ -56,6 +56,7 @@ public class ModelImpl implements Model {
 			sampleNote1.setCreateDate(new Date().getTime() - 14 * 60 * 1000);
 			sampleNote1.setExpiryDate(new Date().getTime() + 20 * 60 * 60
 					* 1000);
+			sampleNote1.setFilename("");
 
 			Comment comment1 = new Comment();
 			comment1.setComment("Ja chętnie się wybiorę!");
@@ -161,7 +162,7 @@ public class ModelImpl implements Model {
 				"Bailey", "Wyatt", "Isabel", "Dominic", "Arianna", "Antonio",
 				"Sierra", "Jaden", "Mariah", "Miguel", "Aaliyah", "Brayden",
 				"Melanie", "Patrick", "Erin", "Alejandro", "Nevaeh", "Carson",
-				"Brooklyn", "Jesse", "Marissa");
+				"Brooklyn", "Jesse", "Marissa", "Jacek");
 
 		List<String> res = new ArrayList<String>();
 		for (String name : names) {
@@ -173,6 +174,56 @@ public class ModelImpl implements Model {
 			}
 		}
 		return res;
+	}
+
+	@Override
+	public List<String> getUserGropus(String user) {
+		if (user.equals("Jacek")) {
+			return Arrays.asList("GrupaW1");
+		}
+		return null;
+	}
+
+	@Override
+	public boolean addGroup(String user, String groupName) {
+		return true;
+	}
+
+	@Override
+	public void removeGroup(String gropuName) {
+		return;
+	}
+
+	@Override
+	public void assignUserToGroups(String username, List<String> groups) {
+		return;
+	}
+
+	@Override
+	public List<String> getGroupsHints(String query, int count) {
+		List<String> names = Arrays.asList("GrupaW1", "Warszawa", "Riviera",
+				"MiNI", "Politechnika");
+
+		List<String> res = new ArrayList<String>();
+		for (String name : names) {
+			if (name.toLowerCase().startsWith(query.toLowerCase())) {
+				res.add(name);
+				if (res.size() == count) {
+					break;
+				}
+			}
+		}
+		return res;
+	}
+
+	@Override
+	public boolean changePassword(String oldPass, String newPass) {
+		return true;
+	}
+
+	@Override
+	public byte[] getAttachment(int noteId) {
+		return null;
 	}
 
 }
